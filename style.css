@@ -61,7 +61,6 @@ html, body{
     gap: 15px;
     margin-top: 10px;
     overflow-y: scroll;
-    height: 46vh;
     padding: 10px;
 }
 
@@ -86,8 +85,7 @@ html, body{
 }
 
 .links img{
-    width: fit-content;
-    height: 110%;
+    width: 50px;
     padding-right: 20px;
 }
 
@@ -128,4 +126,34 @@ html, body{
 
 .footer div a:hover{
     color: rgb(18, 18, 90);
+}
+
+.container{
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row a{
+    width: 150px;
+}
+
+.row a img {
+    width: 25vw;
+    background-color: rgb(206, 206, 206);
+}
+
+.row a img:hover{
+    background-color: rgb(172, 172, 172);
+}
+
+.br{
+    height: 100px;
 }
