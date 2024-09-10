@@ -152,6 +152,7 @@ html, body{
 
 .row a img:hover{
     background-color: rgb(172, 172, 172);
+    scale: 1.12;
 }
 
 .br{
