@@ -38,7 +38,7 @@ html, body{
     height: 50%;
     mix-blend-mode:multiply;
 }
-.top instagramicon{
+.top a img{
     position: absolute;
     top: 90%;
     left: 50%;
