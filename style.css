@@ -8,34 +8,49 @@
     display: none;
 }
 
-html, body{
+html{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    background-color: #FDC2CB;
+    position: relative;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDC2CB;
 }
 
 .top{
-    width: 100%;
-    height:45vh;
-    position: relative;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDC2CB;
 }
 
-.top>img{
-    width: 100%;
-    height: 100%;
+.top p {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 1px 15px;
+    border-radius: 5px;
 }
 
-.top>img:nth-child(2){
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: fit-content;
-    height: 50%;
+.top>img:nth-child(1){
+    max-width: 70%;
+    height: 85%;
     mix-blend-mode:multiply;
 }
 .top a img{
@@ -61,6 +76,7 @@ html, body{
     margin-top: 10px;
     overflow-y: scroll;
     padding: 10px;
+    background-color: #FDC2CB;
 }
 
 .links a{
@@ -93,12 +109,10 @@ html, body{
     height: fit-content;
     bottom: 0%;
     left: 0%;
-    position: fixed;
-    background-color: rgb(214, 214, 214);
+    background-color: #FDC2CB;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 30px 30px 0px  0px;
     padding: 10px;
 }
 
@@ -106,16 +120,8 @@ html, body{
     width: 50px;
     margin-bottom: 20px;
 }
+   
 
-.footer div{
-    background-color: rgb(114, 176, 184);
-    width: 100%;
-    padding: 10px;
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 .footer div a{
     color: #3a3a3a;
     text-decoration: none;
@@ -124,13 +130,17 @@ html, body{
 }
 
 .footer div a:hover{
-    color: rgb(18, 18, 90);
+    color: rgb(28, 28, 146);
 }
 
 .container{
+    width: 100vw;
+    height: 100%;
     display: flex;
     flex-direction: column ;
     gap: 10px;
+    overflow-y: scroll;
+    background-color: #FDC2CB;
 }
 
 .row{
@@ -157,8 +167,38 @@ html, body{
 
 .br{
     height: 100px;
+    background-color: #FDC2CB;
+}
+
+i{
+    font-size:  1.5rem;
+    padding: 10px;
+}
+
+.addressandmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #FDC2CB;
+}
+
+.addressandmore p{
+    color: #3a3a3a;
+    font-weight: 400;
+    text-align: center;
+}
+
+.addressandmore p:nth-child(1){
+    padding: 0px 30px;
 }
 
 .whatsappchannel{
     border-radius: 50%;
+}
+
+.whatsappchannela{
+    text-wrap: nowrap;
 }
