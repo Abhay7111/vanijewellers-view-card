@@ -49,8 +49,18 @@ body{
 
 .top>img:nth-child(1){
     max-width: 70%;
-    height: 85%;
+    height: 55%;
     mix-blend-mode:multiply;
+}
+
+p{
+    width: fit-content;
+    text-align: center;
+}
+
+p span {
+    font-weight: 700;
+    text-align: center;
 }
 .top a img{
     position: absolute;
